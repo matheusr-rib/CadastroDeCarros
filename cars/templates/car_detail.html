@@ -79,7 +79,7 @@ a {
    <div class="car-card">
     {% if object.photo %}
       <img src="{{ object.photo.url }}" alt="{{ object.model }} - {{ object.brand }}">
-    {% else % }
+    {% else %}
       <p class="no-photo">Foto não disponivel</p>
     {% endif %}
       <h2>{{ object.brand }} {{ object.model }}</h2>
